@@ -116,11 +116,6 @@ This project aims to develop practical understanding of:
 - Model inference and evaluation
 - GPU memory optimization
 
-## Development Philosophy
-
-This project is implemented incrementally with a learning-first approach.
-
-The implementation is developed manually, with AI coding assistants used primarily for explanations, code reviews, debugging, and targeted code suggestions rather than complete automated implementations.
 
 ## License
 
