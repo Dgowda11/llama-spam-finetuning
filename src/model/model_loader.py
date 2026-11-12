@@ -12,8 +12,16 @@ class ModelLoader:
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_id)
         return self.tokenizer
 
-    # def create_quantization_config(self):
-    #     # Configure 4-bit quantization
+    def create_quantization_config(self):
+        # Configure 4-bit quantization
+        from transformers import BitsAndBytesConfig
+        self.quantization_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype="float16"
+        )
+        return self.quantization_config
 
     # def load_model(self):
     #     # Load pretrained model
