@@ -23,8 +23,16 @@ class ModelLoader:
         )
         return self.quantization_config
 
-    # def load_model(self):
-    #     # Load pretrained model
+    def load_model(self):
+        # Load pretrained model
+        from transformers import AutoModelForCausalLM
+        self.model = AutoModelForCausalLM.from_pretrained(
+            self.model_id,
+            quantization_config=self.quantization_config,
+            device_map="auto",
+            
+        )
+        return self.model
 
     # def get_model(self):
     #     # Return loaded model
