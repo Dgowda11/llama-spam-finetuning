@@ -1,0 +1,26 @@
+
+# Data Processing
+pandas
+numpy
+scikit-learn
+kaggle
+
+# Hugging Face
+transformers
+datasets
+huggingface_hub
+tokenizers
+
+# Model Training
+accelerate
+peft
+bitsandbytes
+trl
+
+# Evaluation & Visualization
+evaluate
+matplotlib
+seaborn
+
+# Utilities
+tqdm
