@@ -1,0 +1,6 @@
+message,actual_label,predicted_label,inference_time,correct
+Your unique user ID is 1172. For removal send STOP to 87239 customer services 08708034412,spam,ham,0.12917082099988875,False
+You will recieve your tone within the next 24hrs. For Terms and conditions please see Channel U Teletext Pg 750,spam,ham,0.11764102500001172,False
+"Customer service announcement. We recently tried to make a delivery to you but were unable to do so, please call 07099833605 to re-schedule. Ref:9280114",spam,ham,0.1196732759999577,False
+Missed call alert. These numbers called but left no message. 07008009200,spam,ham,0.11774247600010312,False
+"SMS. ac sun0819 posts HELLO:\You seem cool, wanted to say hi. HI!!!\"" Stop? Send STOP to 62468""",spam,ham,0.13501471099993978,False

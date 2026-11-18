@@ -1,0 +1,13 @@
+{
+    "model": "meta-llama/Llama-3.2-3B-Instruct",
+    "precision": "FP16",
+    "test_samples": 1034,
+    "accuracy": 0.6237911025145068,
+    "spam_precision": 0.24705882352941178,
+    "spam_recall": 0.9618320610687023,
+    "spam_f1": 0.39313572542901715,
+    "unknown_predictions": 0,
+    "total_inference_time_seconds": 147.00666738300174,
+    "average_latency_seconds": 0.14217279244004036,
+    "throughput_samples_per_second": 7.0336945827503365
+}
